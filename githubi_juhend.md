@@ -39,3 +39,5 @@ VSC-s võimalik avada kogu kaust niimoodi, et teha muudatusi erinevates failides
 3. [git add .]
 4. [git commit -m"Commiti pealkiri jutumärkide vahel"]
 5. [git push] - Muudab vastavad failid ka GitHubis
+
+Muudatus
