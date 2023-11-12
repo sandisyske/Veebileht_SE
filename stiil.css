@@ -1,0 +1,10 @@
+body {
+    font-family: "Futura", sans-serif;
+    background-image: url('pilved.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Lisa rida " <link rel="stylesheet" href="stiil.css"> " oma .html faili headi. */
