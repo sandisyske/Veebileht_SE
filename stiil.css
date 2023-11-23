@@ -26,10 +26,10 @@ nav a {
     color: rgb(200, 195, 195);
     font-weight: bold;
     font-size: 16px;
-    padding: 10px 15px;
+    padding: 15px;
     border-radius: 5px;
     background-color: #555;
-    margin-right: 50px; /* Väike ruum nuppude vahel */
+    margin-right: 40px;
 }
     
 nav a:hover {
@@ -42,14 +42,16 @@ nav a:hover {
     font-size: 18px;
     text-align: center;
     color: #000000;
-    background-color: #c5c5ff;
+    background-color: #8fb8e8;
     border: 5px solid #aadbff;
     border-radius: 15px;
 }
 footer {
-    background-color: #4caf50;
-    color: white;
+    background-color: #fffafafa;
+    border: 5px solid #fccccc;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 1rem;
     margin-top: 1rem;
+    border-radius: 25px;
 }
