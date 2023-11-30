@@ -2,13 +2,40 @@
 <html lang="ee">
 <head>
     <meta name="viewport" content="with-device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS failid/veebileht.css">
     <title>AI veebileht</title>
+    <link rel="stylesheet" href="./CSS failid/veebileht.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,100&display=swap">
+<!--Skriptikood on võetud veebilehe tutorialist https://fontawesome.com/docs/web/add-icons/how-to-->
+<!--Ikoonide lisamise skript-->
+<script src="https://kit.fontawesome.com/bfea1fd903.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="header">
-
+        <nav>
+            <a href="pealeht.html"><img src="./Assets/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!--ikoon menu sulgemiseks-->
+                <!--js koodi click handler-->
+                <span id="clickableIcon"><i class="fa fa-xmark" onclick="hideMenu()"></i></span>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ALAMLEHT1</a></li>
+                        <li><a href="">ALAMLEHT2</a></li>
+                    </ul>
+            </div>
+            <!--ikoon menu avamiseks-->
+            <span id="clickableIcon"><i class="fa fa-list" onclick="showMenu()"></i></span>
+        </nav> 
+        <div class="text-box">
+            <h1>AI kodulehekülg</h1>
+            <p>Sellel veebilehel tutvustame erinevaid AI ostingu ja suhtlusmootoreid</p>
+            <a href="" class="button">Visit us to know more</a>
+        </div>
     </section>
 
+
+    
 </body>
 </html>
