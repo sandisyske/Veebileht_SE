@@ -1,0 +1,114 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+.Sisu {
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 100px;
+}
+
+.piltTaustal{
+   font-size: 60px;
+   text-align: center;
+   position: relative;
+   display: inline-block;
+   background-size: cover;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: #05386B;
+}
+.rida {
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.veerg {
+   flex-basis: 30%;
+   background: #05386B;
+   border-radius: 10px;
+   padding: 20px 12px; /* Lisasin veerule sisemise vahemiku */
+   margin-bottom: 5%;
+   box-sizing: border-box;
+   /*transition: 0.5s;*/
+}
+/* saab lisada kastil hover taha vari 
+.veerg:hover{
+   box-shadow:0 0 20px 0px rgbe(0,0,0,0.2); 0.2 opacity*/
+.veerg #valgeTekst{
+   color: #fff;
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 22px;
+   padding: 10px;
+}
+@media(max-width: 700px){
+   .rida{
+      flex-direction: column;
+
+   }
+}
+
+.veelvalikuid{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 50px;
+
+}
+.veelvalikuid#p{
+   color: #379683;
+   font-size: 20px;
+}
+
+.pilt-col {
+   flex-basis: 32%;
+   border-radius: 10px;
+   margin-bottom: 30px;
+   position: relative;
+   overflow: hidden;
+   
+}
+
+.pilt-col img {
+   width: 100%;
+   display: block;
+   
+   
+}
+
+.kihiti {
+   background: transparent;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: 0.5s;
+}
+
+.kihiti h3 {
+   width: 100%;
+   font-size: 40px;
+   font-weight: 500;
+   color: #fff;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   position: absolute;
+   opacity: 0;
+   transition: 0.5s; /* et üleminek oleks sujuv */
+}
+
+.pilt-col:hover .kihiti {
+   background: rgba(5,56,107,0.8);
+}
+
+.pilt-col:hover .kihiti h3 {
+   bottom: 45%;
+   opacity: 1;
+}

@@ -1,0 +1,11 @@
+.piltTaustal{
+   font-size: 60px;
+   text-align: center;
+   position: relative;
+   display: inline-block;
+   background-image: url(../Assets/kirjataga.jpg);
+   background-size: cover;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+}

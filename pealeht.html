@@ -3,8 +3,11 @@
 <head>
     <meta name="viewport" content="with-device-width, initial-scale=1.0">
     <title>AI veebileht</title>
+    <!--lingid css failidele-->
     <link rel="stylesheet" href="./CSS failid/veebileht.css">
+    <link rel="stylesheet" href="./CSS failid/pealeht.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--lingid Google Font'ile-->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,100&display=swap">
 <!--Skriptikood on võetud veebilehe tutorialist https://fontawesome.com/docs/web/add-icons/how-to-->
@@ -12,30 +15,83 @@
 <script src="https://kit.fontawesome.com/bfea1fd903.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!----- Esilehe peamenüü ja tiitel ------>
     <section class="header">
         <nav>
-            <a href="pealeht.html"><img src="./Assets/logo.png"></a>
+            <a href="pealeht.html"><img src="./Assets/pealehelogo.png"></a>
             <div class="nav-links" id="navLinks">
                 <!--ikoon menu sulgemiseks-->
                 <!--js koodi click handler-->
                 <span id="clickableIcon"><i class="fa fa-xmark" onclick="hideMenu()"></i></span>
                     <ul>
                         <li><a href="">HOME</a></li>
-                        <li><a href="">ALAMLEHT1</a></li>
-                        <li><a href="">ALAMLEHT2</a></li>
+                        <li><a href="alamleht1.html">ALAMLEHT1</a></li>
+                        <li><a href="alamleht2.html">ALAMLEHT2</a></li>
                     </ul>
             </div>
             <!--ikoon menu avamiseks-->
             <span id="clickableIcon"><i class="fa fa-list" onclick="showMenu()"></i></span>
         </nav> 
         <div class="text-box">
-            <h1>AI kodulehekülg</h1>
+            <h1>AI tutvustav lehekülg</h1>
             <p>Sellel veebilehel tutvustame erinevaid AI ostingu ja suhtlusmootoreid</p>
             <a href="" class="button">Visit us to know more</a>
         </div>
     </section>
+    <script type="text/javascript" src="./JS failid/veebileht.js"></script>
 
+    <!----- kolm kirjakasti ------> 
 
+    <section class="Sisu">
+        <h1 class="piltTaustal">ESIMENE PEATÜKK</h1>
+        <p>Erinevad AI mootorid</p>
+            <div class="rida">
+                <div class="veerg">
+                    <h3>OpenAI</h3>
+                    <p id="valgeTekst">Selline tore suhtlusbot nagu su ema</p>
+                </div>
+
+            <div class="veerg">
+                <h3>Bard</h3>
+                <p id="valgeTekst">Ma ausalt ei tea mida ta teeb</p>
+            </div>
+            <div class="veerg">
+                <h3>Microsoft Copilot</h3>
+                <p id="valgeTekst">Arenenud AI kes teeb suh k6ike aga maksab</p>
+            </div>
+            </div>
+    </section>
     
+    <section class="veelvalikuid">
+        <!----- kolmas sektsioon ------>  
+        <h1>Loe lähemalt nendest AI-dest</h1>
+        <p>Pildile klikkides lähed vastava AI kodulehele</p>
+
+        <div class="rida">
+            <div class="pilt-col">
+                <img src="./Assets/openai.png" alt="Microsoft Copilot">
+                <div class="kihiti">
+                    <h3>OPEN AI</h3>
+                </div>
+            </div>
+            <div class="pilt-col">
+                <img src="./Assets/bard.png" alt="Microsoft Copilot">
+                <div class="kihiti">
+                    <h3>BARD AI</h3>
+                </div>
+            </div>
+            <div class="pilt-col">
+                <img src="./Assets/copilot.png" alt="Microsoft Copilot">
+                <div class="kihiti">
+                    <h3>MICROSOFT COPILOT</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <h3>Tartu Ülikooli informaatika 1. kursuse tudengid</h3>
+        <h3>2023</h3>
+    </footer>
 </body>
 </html>
