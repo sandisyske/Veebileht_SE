@@ -1,0 +1,207 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.img{
+    width:100%;
+    height:100vh;
+    background-image: url("taevas.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative
+}
+.img-text{
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    color:white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+#effect{
+    width: 100;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
+.pealkiri{
+    position:absolute;
+    top:170px;
+    left:70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(48, 47, 47);
+}
+.paragraaf {
+    position: relative;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(134, 134, 134);
+}
+.pilt2 {
+    width:100%;
+    height: 325px;
+    background-image: url("foto1.jpg");
+    background-size: cover;
+    margin-right:70px;
+}
+.pilt3 {
+    width:100%;
+    height: 400px;
+    background-image: url("foto2.jpg");
+    background-size: cover;
+    margin-right:70px;
+}
+.logo {
+    color:white;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    font-family: Arial;
+
+}
+.art{
+    top:0px;
+    left:80px;
+    margin-left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+    color:rgba(134, 134, 134, 0.267);
+}
+.arth1{
+    padding-left: 20px;
+    margin-top: 6%;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(48, 47, 47);
+}
+.article{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    letter-spacing: 1.2px;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(134, 134, 134, 0.534); 
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 50px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(62, 111, 201);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out
+}
+
+ul li a:hover{
+    color: #4f5b72;
+}
+.otsingumootor{
+    left: 50%;
+    position:absolute;
+    width: 330px;
+    float: left;
+    margin-left: 230px;
+}
+.srch{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(62, 111, 201);
+    margin-top: 32px;
+    border-right: none;
+    font-size: 16px;
+    float:left;
+    padding:10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background:rgb(62, 111, 201);
+    border:2px solid rgb(62, 111, 201);
+    margin-top: 32px;
+    color:white;
+    font-size: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline:none;
+}
+hr {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0.2em;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-style: inset;
+    border-width: 1px;
+    color: #4f5b726b;
+  }
+  hr.double {
+    border-top: 2px double;
+    border-bottom: none;
+   }
+.sisu{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+.kontakt{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+.telly{
+    margin-top: 100px;
+    width:200px;
+    height: 325px;
+    background-size: 60% ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -100px;
+    background-repeat: no-repeat;
+    background-image: url("telly.png");
+}
+.toimetus{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
