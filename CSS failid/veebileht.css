@@ -7,8 +7,6 @@
 #05386B tumesinine
 
 #8EE4AF heleroheline
-
-
 */
  .header#alamleht{
     min-height: 15vh;
@@ -65,7 +63,7 @@ footer{
     background-color: #05386B;
     padding-top:  30px;
     padding-bottom: 10px;
-    bottom: 0;
+    position: bottom;
     width: 100%;
 
 }

@@ -11,6 +11,23 @@
    background-size: cover;
    position: relative;
 }
+h4{
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+   line-height: 22px;
+   padding-top: 5px;
+   padding-left: 10px;
+}
+p{
+   color:rgb(80, 84, 87);
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 22px;
+   padding: 10px;
+}
+
+/* tiitelleht */ 
 .text-box{
    width: 90%;
    color: #fff;
@@ -45,39 +62,8 @@
    background: #8EE4AF;
    transition: 1s;
 }
-.Sisu {
-   width: 80%;
-   margin: auto;
 
-   padding-top: 100px;
-}
-
-.veelvalikuid h1 {
-   font-size: 36px;
-   font-weight: 600;
-}
-p{
-   color:rgb(80, 84, 87);
-   font-size: 20px;
-   font-weight: 300;
-   line-height: 22px;
-   padding: 10px;
-}
-.TehisintellektiKirjeldus{
-   margin-top: 3%;
-   margin-bottom: 3%;
-   
-
-}
-.SuurPealkiri{
-   font-size: 40px;
-   text-align: left;
-   padding-left: 0;
-   background-size: cover;
-   -webkit-background-clip: text;
-   background-clip: text;
-   color: #05386B;
-}
+/* Quote */
 #quote{
    transform: skew(-15deg, 0deg);
    font-style: normal;
@@ -89,6 +75,25 @@ p{
    text-align: right;
 }
 
+/* AI kirjeldustekst */
+.Sisu {
+   width: 80%;
+   margin: auto;
+   padding-top: 100px;
+}
+.TehisintellektiKirjeldus{
+   margin-top: 3%;
+   margin-bottom: 3%;
+}
+.SuurPealkiri{
+   font-size: 40px;
+   text-align: left;
+   padding-left: 0;
+   background-size: cover;
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: #05386B;
+}
 .rida {
    margin-top: 3%;
    display: flex;
@@ -105,22 +110,11 @@ p{
    box-sizing: border-box;
    /*transition: 0.5s;*/
 }
-/* saab lisada kastil hover taha vari 
-.veerg:hover{
-   box-shadow:0 0 20px 0px rgbe(0,0,0,0.2); 0.2 opacity*/
 .veerg #valgeTekst{
    color: #fff;
    font-size: 15px;
    font-weight: 100;
    line-height: 22px;
-}
-h4{
-   color: #fff;
-   font-size: 15px;
-   font-weight: 600;
-   line-height: 22px;
-   padding-top: 5px;
-   padding-left: 10px;
 }
 .veerg #valgePealkiri{
    color: #fff;
@@ -128,36 +122,22 @@ h4{
    padding-left: 0;
    text-align: center;
 }
-/* Muudatused telefonivaatest */
-@media(max-width: 700px){
-   .Sisu{
-      width: auto;
-   }
-   .rida{
-      flex-direction: column;
-
-   }
-   .SuurPealkiri{
-      font-size: 35px;
-      text-align: center;
-   }
-   p{
-      text-align: center;
-   }
-}
 
 /* Kolmas sektor - AI rakendusi kolmes valdkonnas linkidega */ 
-.veelvalikuid{
+.LingidValdkondades{
    width: 80%;
    margin: auto;
    text-align: center;
    padding-top: 50px;
 }
-.veelvalikuid#p{
+.LingidValdkondades#p{
    color: #379683;
    font-size: 20px;
 }
-
+.LingidValdkondades h1 {
+   font-size: 36px;
+   font-weight: 600;
+}
 .pilt-col {
    flex-basis: 30%;
    border-radius: 10px;
@@ -165,13 +145,11 @@ h4{
    position: relative;
    overflow: hidden;
 }
-
 .pilt-col img {
    width: 100%;
    display: block;
 }
-
-.kihiti {
+.Animatsioon {
    background: transparent;
    height: 100%;
    width: 100%;
@@ -180,8 +158,7 @@ h4{
    left: 0;
    transition: 0.5s;
 }
-
-.kihiti h3 {
+.Animatsioon h3 {
    width: 100%;
    font-size: 40px;
    font-weight: 500;
@@ -193,12 +170,29 @@ h4{
    opacity: 0;
    transition: 0.5s; /* et üleminek oleks sujuv */
 }
-
-.pilt-col:hover .kihiti {
+.pilt-col:hover .Animatsioon {
    background: rgba(5,56,107,0.8); /* Kasti värvus kui hiir selle kohal on */
 }
 
-.pilt-col:hover .kihiti h3 {
+.pilt-col:hover .Animatsioon h3 {
    bottom: 25%; /*  kui kõrgele tekst tõuseb */
    opacity: 1;
+}
+
+
+/* Muudatused telefonivaatest */
+@media(max-width: 700px){
+   .Sisu{
+      width: auto;
+   }
+   .rida{
+      flex-direction: column;
+   }
+   .SuurPealkiri{
+      font-size: 35px;
+      text-align: center;
+   }
+   p{
+      text-align: center;
+   }
 }
