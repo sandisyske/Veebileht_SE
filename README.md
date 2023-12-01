@@ -18,9 +18,10 @@
 * Kõik veebilehel kasutatud pildid on kaustas "Assets" ja kasutatud ikoonid on kaustas "Ikoonid"
 
 ### Lehtede ülesehitus
-* Pealeht(pealeht.html + pealeht.css)
-* Alamleht 1 (alamleht1.html + alamleht1.css)
-* Alamleht 2 (alamleht2.html + alamleht2.css)
+* Pealeht - tehisintellekti tutvustus(pealeht.html + pealeht.css)
+* Alamleht 1 - Viis tehisintellekti tehnoloogiat(alamleht1.html + alamleht1.css)
+* Alamleht 2  + tehisintellekti rakendused(alamleht2.html + alamleht2.css)
 * Ühine css fail nimega veebileht.css
 * Ühine javascript fail nimega veebileht.jv
-* Javascripti koodi autor on ... ning selle koodi kirjeldus (mida, mingi koodi osa teeb) on kirjeldatud veebileht.js failis kommentaaridena
+* Javascripti koodi autor on stackoverflow kasutaja Thomas Orlita ning selle koodi kirjeldus (mida, mingi koodi osa teeb) on kirjeldatud veebileht.js failis kommentaaridena
+   - https://stackoverflow.com/questions/35579569/hide-show-menu-onclick-javascript
