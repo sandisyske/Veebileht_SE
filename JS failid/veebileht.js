@@ -6,7 +6,9 @@
 var navLinks = document.getElementById("navLinks")
     function showMenu(){
         navLinks.style.right = "0"
+        // menüü äär on 0 px ehk parem serv tuuakse vasaku servaga kohakuti ning menüü on nähtaval
     }
     function hideMenu(){
         navLinks.style.right = "-200px"
+        // menüü parem serv viiakse 200px paremale, mis viib menüü erkaanist välja ning see ei ole nähtav
     } 
