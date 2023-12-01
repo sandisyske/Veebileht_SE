@@ -1,8 +1,6 @@
 // click handler ikoonide vajutamiseks
 // Toggle menu click handler võetud https://stackoverflow.com/questions/35579569/hide-show-menu-onclick-javascript
 // see skript muudab vastavalt funtksioonile, kui kaugel äärest asub menüü külg
-// kui on aktiivne showMenu, siis on menüü riba tõmmatud telefoni ekraani peale
-// kui on aktiivne hideMenu siis lükkatakse menüü serv peidetuks parema ääre taha
 var navLinks = document.getElementById("navLinks")
 // võetakse nuppude id mille vajutamisel aktiveerib vastav funktsioon. listi-ikooni vajutamisel aktiveeritakse funktsioon showMenu ja risti-ikooni vajutamisel aktiveeritakse funktsioon hideMenu
     function showMenu(){
