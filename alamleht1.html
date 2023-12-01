@@ -1,56 +1,47 @@
 <!DOCTYPE html>
-<html lang="et">
+<html lang="ee">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChatGPT vs Bard AI</title>
-    <link rel="stylesheet" href="./CSS failid/veebileht.css">
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>Copilot</title>
+    <!--lingid css failidele-->
     <link rel="stylesheet" href="./CSS failid/alamleht1.css">
+    <link rel="stylesheet" href="./CSS failid/veebileht.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--lingid Google Font'ile-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,100&display=swap">
+<!--Skriptikood on võetud veebilehe tutorialist https://fontawesome.com/docs/web/add-icons/how-to-->
+<!--Ikoonide lisamise skript-->
+<script src="https://kit.fontawesome.com/bfea1fd903.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div id ="wrapper">
-            <h1>ChatGPT</h1>
+    <!----- Esilehe peamenüü ja tiitel ------>
+    <section class="header" id="alamleht">
+        <nav>
+            <a href="pealeht.html"><img src="./Assets/pealehelogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <!--ikoon menu sulgemiseks-->
+                <!--js koodi click handler-->
+                <span id="clickableIcon"><i class="fa fa-xmark" onclick="hideMenu()"></i></span>
+                    <ul>
+                        <li><a href="pealeht.html">ESILEHT</a></li>
+                        <li><a href="alamleht1.html">COPILOT - MIS SEE ON?</a></li>
+                        <li><a href="alamleht2.html">SUHTLUSBOTID BARD JA CHATGPT</a></li>
+                    </ul>
+            </div>
+            <!--ikoon menu avamiseks-->
+            <span id="clickableIcon"><i class="fa fa-list" onclick="showMenu()"></i></span>
+        </nav>  
+        </section>
+        <div class="AlamlehePealkiri">
+            <h1>Microsoft Copilot - mis see on?</h1>
+            <p>Sellel veebilehel tutvustame erinevaid AI ostingu ja suhtlusmootoreid</p>
         </div>
-    </header>
-    <main>
-        <section>
-            <h2>Mis on ChatGPT?</h2>
-            <p>Laseme esmalt vastata asjaosalisel endal:</p>
-            <p>Tere! ChatGPT on minu nimi, olen suur keele mudel, mille on treeninud OpenAI. Minu arhitektuur põhineb GPT-3.5-l ning ma suudan vastata erinevatele küsimustele ja pakkuda lahendusi erinevatele ülesannetele, nagu näiteks tõlge, tekstide genereerimine, jutustamine ja palju muud. Kuidas ma saan teile täna abiks olla?</p>
-            <p>-ChatGPT</p>
-        
-            <h2>Mis on Bard AI?</h2>
-            <p>Bard AI on veel üks tipptasemel keelemudel, mis kasutab NLP-d realistliku, inimesele sarnase teksti loomiseks. Seda on treenitud suurel hulgal kirjalike teoste andmestikul, andes sellele kindla aluse keele, grammatika ja stiili osas. Nagu ChatGPT, suudab ka Bard AI genereerida teksti erinevatel teemadel ja mõista kontekstuaalseid vihjeid.</p>
-               
-        </section>
-        <section>
-
-            <h2>Võrdlus</h2>
-            <table>
-                <tr>
-                    <th></th>
-                    <th>ChatGPT</th>
-                    <th>Bard AI</th>
-                </tr>
-                <tr>
-                    <td>Eesmärk ja funktsioon</td>
-                    <td>ChatGPT on loodud peamiselt inimestega vestlemiseks ja tekstipõhiseks suhtluseks. See on suhtluskeele mudel, mis võib vastata küsimustele, luua dialooge ja täita erinevaid vestlusfunktsioone.</td>
-                    <td>Bard on tekstigeneraator, mis on suunatud loomingu valdkonnale, eriti luulele ja muule kunstilisele tekstiloomingule. Selle eesmärk on toota kaasahaaravat ja loomingulist teksti, sageli kunstilise väljenduse eesmärgil.</td>
-                </tr>
-                <tr>
-                    <td>Treeningandmed ja spetsialiseerumine</td>
-                    <td>ChatGPT on treenitud laialdase andmehulgaga, mis hõlmab paljusid teemasid ja valdkondi. See põhineb üldisel keelemudelil, mis suudab katta mitmesuguseid teemasid vastavalt kasutaja küsimustele ja päringutele.</td>
-                    <td>Bard on spetsialiseerunud kunstilisele loomeprotsessile. Selle treeningandmed on suunatud luulele, ilukirjandusele ja muule kunstilisele keelekasutusele.</td>
-                </tr>
-                <tr>
-                    <td>Rakendused ja kasutusalad</td>
-                    <td>ChatGPT on kasutatav mitmesugustes rakendustes, sealhulgas klienditeeninduses, vestlusrobotites, tekstipõhises assistendis ja muudes tekstipõhistes suhtlusülesannetes.</td>
-                    <td>Bardi kasutusalad on peamiselt seotud kunstiga, nagu luule loomine, tekstilooming kunsti ja meelelahutuse jaoks ning muud loomingulised kirjalikud väljundid.</td>
-                </tr>
-            </table>
-        </section>
-    </main>
+        <!--SISU ALAMLEHEL 1-->
+        <script type="text/javascript" src="./JS failid/veebileht.js"></script>
+        <div class="AlamleheTekst">
+            <h3>Natuke v'iksem tekst</h3>
+        </div>
     <footer>
         <p>Tartu Ülikooli informaatika 1. kursuse tudengid</p>
         <p>2023</p>
