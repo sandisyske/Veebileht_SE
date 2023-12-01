@@ -55,7 +55,6 @@
 .veelvalikuid h1 {
    font-size: 36px;
    font-weight: 600;
-   
 }
 p{
    color:rgb(80, 84, 87);
@@ -95,7 +94,7 @@ p{
 .veerg #valgeTekst{
    color: #fff;
    font-size: 20px;
-   font-weight: 300;
+   font-weight: 200;
    line-height: 22px;
    padding: 10px;
 }
@@ -119,7 +118,7 @@ p{
 }
 
 .pilt-col {
-   flex-basis: 32%;
+   flex-basis: 15%;
    border-radius: 10px;
    margin-bottom: 30px;
    position: relative;
