@@ -4,6 +4,7 @@
 // kui on aktiivne showMenu, siis on menüü riba tõmmatud telefoni ekraani peale
 // kui on aktiivne hideMenu siis lükkatakse menüü serv peidetuks parema ääre taha
 var navLinks = document.getElementById("navLinks")
+// võetakse nuppude id mille vajutamisel aktiveerib vastav funktsioon. listi-ikooni vajutamisel aktiveeritakse funktsioon showMenu ja risti-ikooni vajutamisel aktiveeritakse funktsioon hideMenu
     function showMenu(){
         navLinks.style.right = "0"
         // menüü äär on 0 px ehk parem serv tuuakse vasaku servaga kohakuti ning menüü on nähtaval
