@@ -111,13 +111,13 @@ p{
    box-sizing: border-box;
    /*transition: 0.5s;*/
 }
-.veerg #valgeTekst{
+#valgeTekst, #valgeTekst2, #valgeTekst3, #valgeTekst4, #valgeTekst5, #valgeTekst6, #valgeTekst7, #valgeTekst8, #valgeTekst9 {
    color: #fff;
    font-size: 15px;
    font-weight: 100;
    line-height: 22px;
 }
-.veerg #valgePealkiri{
+#valgePealkiri, #valgePealkiri2, #valgePealkiri3, #valgePealkiri4, #valgePealkiri5, #valgePealkiri6, #valgePealkiri7, #valgePealkiri8, #valgePealkiri9, #valgePealkiri10 {
    color: #fff;
    font-weight: 600;
    padding-left: 0;
