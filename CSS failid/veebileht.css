@@ -3,11 +3,7 @@
     padding:0;
     font-family: 'Poppins', sans-serif;/* */
 }
-/*
-#05386B tumesinine
 
-#8EE4AF heleroheline
-*/
  .header#alamleht{
     min-height: 15vh;
     width: 100%;
@@ -58,7 +54,7 @@ nav img{
 nav .fa{
     display: none;
 }
-/*JALUS - kas see on eesti keelne sõna?*/
+/* JALUS */
 footer{
     background-color: #05386B;
     padding-top:  30px;
@@ -105,8 +101,5 @@ footer p{
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
-    }
-    .nav-links#navLinks{
-        cursor: pointer;/* mobiili ekraani peal seda eriti vaja ei ole tegelt*/
     }
 }

@@ -1,5 +1,13 @@
 # Veebilehe projekt
 
+Meeskond öthLo ehk Kassib
+
+Veebilehe arendajad on Siim Muutra, Sandra Erik ning Mona Eliise Mumm. 
+
+Veebilehe eesmärk on tutvustada tehisintellekti, selle rakendusi ning kuidas meie tudengitena saame kasutada tehisintellekti kui abivahendit enda ülikoolielus.
+
+Veebileht on valminud õppeaine Sissejuhatus erialasse raames.
+
 ### Repository ülesehitus (KAUST -> Mis seal on?)
 
 * AMETLIK -> 

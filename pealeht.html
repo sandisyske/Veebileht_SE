@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tehisintellekti veebileht</title>
-    <!--lingid css failidele-->
+    <!-- Lingid css failidele -->
     <link rel="stylesheet" href="./CSS%20failid/veebileht.css">
     <link rel="stylesheet" href="./CSS%20failid/pealeht.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!--lingid Google Font'ile-->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,100&display=swap">
+
 <!--Skriptikood on võetud veebilehe tutorialist https://fontawesome.com/docs/web/add-icons/how-to-->
 <!--Ikoonide lisamise skript-->
 <script src="https://kit.fontawesome.com/bfea1fd903.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Esilehe peamenüü ja tiitel -->
+    <!-- Esimene sektsioon - esilehe peamenüü ja tiitel -->
     <section class="header">
         <nav>
             <a href="pealeht.html"><img src="./Assets/pealehelogo.png" alt="Pealehe logo"></a>
             <div class="nav-links" id="navLinks">
-                <!--ikoon menu sulgemiseks-->
-                <!--js koodi click handler-->
+                <!-- Ikoon menu sulgemiseks -->
+                <!-- JS koodi click handler -->
                 <span id="clickableIcon"><i class="fa fa-xmark" onclick="hideMenu()"></i></span>
                     <ul>
                         <li><a href="pealeht.html">ESILEHT</a></li>
@@ -30,18 +31,19 @@
                         <li><a href="alamleht2.html">TEHISINTELLEKTI RAKENDUSI TUDENGITELE</a></li>
                     </ul>
             </div>
-            <!--ikoon menu avamiseks-->
+            <!-- Ikoonid menu avamiseks -->
             <span id="clickableIcon2"><i class="fa fa-list" onclick="showMenu()"></i></span>
         </nav> 
         <div class="text-box">
             <h1>Tehisintellekt</h1>
             <p>Tehisintellekt loob unikaalseid ja isikupäraseid kogemusi, vastates just Sinu vajadustele</p>
-            <a href="#quote" class="button">Loe täpsemalt tehisintellekti kohta</a> <!-- See nupp on vaja veel parandada et see hüppaks selle lehekülje osa peale kus kirjeldakse mis tehisintellekt on? -->
+            <a href="#quote" class="button">Loe täpsemalt tehisintellekti kohta</a> 
         </div>
     </section>
+
     <script src="./JS%20failid/veebileht.js"></script>
 
-    <!-- kolm kirjakasti --> 
+    <!-- Teine sektsioon --> 
 
     <section class="Sisu">
         <br>
@@ -94,7 +96,9 @@
     </section>
     
     <section class="LingidValdkondades">
-        <!-- kolmas sektsioon -->  
+
+        <!-- Kolmas sektsioon -->  
+
         <h1>AI huvitavaid rakendusi erinevates valdkondades</h1>
         <p>Klikka pildile, et lähemalt lugeda</p>
 
@@ -125,8 +129,8 @@
                 </a>
             </div>
         </div>
-
     </section>
+
     <footer>
         <p>Tartu Ülikooli informaatika 1. kursuse tudengid</p>
         <p>2023</p>
