@@ -61,8 +61,6 @@ body{
    flex:0 0 auto;
    width:50%;
 }
-
-.Veerg.Pilt {}
 .Sektsioon-Konteiner .Veerg.Pilt{
    background-position:center;
    background-repeat:no-repeat;
