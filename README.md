@@ -10,7 +10,6 @@ Veebileht on valminud õppeaine Sissejuhatus erialasse raames.
 
 ### Repository ülesehitus (KAUST -> Mis seal on?)
 
-* AMETLIK -> 
 * ASSETS -> Veebilehtedel kasutatud pildid
 * CSS FAILID -> Kõik veebilehel kasutatud stiilifailid
 * JS FAILID -> Kõik veebilehel kasutatud javascript failid
