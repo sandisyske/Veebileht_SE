@@ -8,7 +8,7 @@ h1{
 }
 h3{
     margin-left: 50px; /* Muutke vastavalt vajadusele */
-    text-align: center; /* Või kasutage vajalikku horisontaalset joondust */
+    text-align: center;
 }
 h5{
     font-size: 15px;
