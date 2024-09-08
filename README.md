@@ -1,6 +1,7 @@
 # Veebilehe projekt
 
 Meeskond öthLo ehk Kassib
+kodu.ut.ee/~muutra/Veebileht_SE/pealeht.html
 
 Veebilehe arendajad on Siim Muutra, Sandra Erik ning Mona Eliise Mumm. 
 
