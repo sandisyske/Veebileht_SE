@@ -2,7 +2,7 @@
 
 Meeskond öthLo ehk Kassib
 
-Veebileht on leitav [sellelt lingilt](kodu.ut.ee/~muutra/Veebileht_SE/pealeht.html).
+Veebileht on leitav [sellelt lingilt](#kodu.ut.ee/~muutra/Veebileht_SE/pealeht.html).
 
 Veebilehe arendajad on Siim Muutra, Sandra Erik ning Mona Eliise Mumm. 
 
